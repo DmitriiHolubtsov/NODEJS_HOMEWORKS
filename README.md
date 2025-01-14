@@ -2,6 +2,6 @@
 
 ## Server
 
-## Copy an run: 
+## Copy and run: 
 
 ### node server.js
