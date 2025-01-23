@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DmitriiHolubtsov/NODEJS_HOMEWORKS/issues"
   },
-  "homepage": "https://github.com/DmitriiHolubtsov/NODEJS_HOMEWORKS#readme"
+  "homepage": "https://github.com/DmitriiHolubtsov/NODEJS_HOMEWORKS#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
