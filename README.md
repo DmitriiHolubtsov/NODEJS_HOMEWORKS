@@ -4,25 +4,25 @@
 
 ## Project structure:
 
-### src/
-### ├── controllers/          # Logic for handling requests
-### │   ├── authController.js # Authentication-related logic (register, login, etc.)
-### │   ├── postController.js # CRUD operations for posts
-### │   └── commentController.js # CRUD operations for comments (optional)
-### ├── middleware/           # Custom middleware
-### │   └── authMiddleware.js # JWT verification middleware
-### ├── models/              # Mongoose schemas
-### │   ├── User.js          # User schema (username, email, password, refreshToken)
-### │   ├── Post.js          # Post schema (title, content, owner)
-### │   └── Comment.js       # Comment schema (text, author, post)
-### ├── routes/              # API route definitions
-### │   ├── authRoutes.js    # Authentication routes
-### │   ├── postRoutes.js    # Post-related routes
-### │   └── commentRoutes.js # Comment-related routes (optional)
-### ├── db.js                # MongoDB connection setup
-### ├── server.js            # Main server file
-### ├── .env                 # Environment variables (secrets, config)
-### └── nodemon.json         # Nodemon configuration for development
+#### - src/
+#### -- controllers/            # Logic for handling requests
+#### --- authController.js      # Authentication-related logic (register, login, etc.)
+#### --- postController.js      # CRUD operations for posts
+#### --- commentController.js   # CRUD operations for comments (optional)
+#### -- middleware/             # Custom middleware
+#### --- authMiddleware.js      # JWT verification middleware
+#### -- models/                 # Mongoose schemas
+#### --- User.js                # User schema (username, email, password, refreshToken)
+#### --- Post.js                # Post schema (title, content, owner)
+#### --- Comment.js             # Comment schema (text, author, post)
+#### -- routes/                 # API route definitions
+#### --- authRoutes.js          # Authentication routes
+#### --- postRoutes.js          # Post-related routes
+#### --- commentRoutes.js       # Comment-related routes (optional)
+#### -- db.js                   # MongoDB connection setup
+#### -- server.js               # Main server file
+#### -- .env                    # Environment variables (secrets, config)
+#### -- nodemon.json            # Nodemon configuration for development
 
 ## Description:
 
